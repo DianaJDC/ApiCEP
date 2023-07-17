@@ -1,0 +1,85 @@
+.container1 {
+  background-image: url(../img/mapa\ brasil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container2 {
+  background-color: #ffffffe0;
+  width: 450px;
+  height: 500px;
+  border-radius: 5%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #002776;
+  box-shadow: 0px 10px 50px rgba(255, 255, 255, 0.6);
+}
+
+.container2 img {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 20%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #002776;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  margin: 3px;
+  color: #002776;
+  background-color: #009c3b;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #ffdf00;
+  color: #002776;
+  padding: 6px 15px;
+  border-color: #002776;
+  transition: background-color 0.3s ease;
+}
+
+p {
+  color: #002776;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+

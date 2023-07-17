@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Api ViaCEP</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="container2">
+        <h1>Consulta seu CEP</h1>
+        <label>Digite seu CEP: </label>
+        <input type="number" id="cep" />
+        <button onclick="consultaCep()">Consultar seu CEP</button>
+        <div id="resultado">
+          <p>Seu resultado aqui</p>
+          <img
+            src="../img/localizador.png"
+            alt="imagem de um logotipo de localizador"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/viacep.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
